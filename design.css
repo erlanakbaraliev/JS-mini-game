@@ -1,0 +1,33 @@
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  background-color: #f39f21;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  min-width: 250px;
+  min-height: 250px;
+  max-width: 350px;
+  max-height: auto;
+  justify-content: space-between;
+}
+
+.grid-container > div {
+  position: relative;
+  background: white;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  min-width: 40px;
+  min-height: 50px;
+} 
+
+img {
+  position: absolute;
+  left: 0px;
+  max-width: 40px;
+  max-height: 50px;
+  /* background-color: blue; */
+}
